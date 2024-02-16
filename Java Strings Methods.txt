@@ -1,0 +1,77 @@
+Here are examples of the string methods in Java:
+
+length():Returns the length of the string, i.e., the number of characters in the string.
+
+String str = "Hello, World!";
+int length = str.length(); // length will be 13
+---------------------------------------------------------------------------------------------------
+
+charAt(index): Returns the character at the specified index in the string. Indexing is 0-based.
+
+String str = "Hello, World!";
+char character = str.charAt(7); // character will be 'W'
+---------------------------------------------------------------------------------------------------
+equals(otherString): Compares the string to another string and returns true if they are equal, otherwise false.
+
+String str1 = "hello";
+String str2 = "world";
+boolean result = str1.equals(str2); // result will be false
+---------------------------------------------------------------------------------------------------
+equalsIgnoreCase(otherString):Compares the string to another string while ignoring the case (uppercase/lowercase), returning true if they are equal, otherwise false.
+ 
+String str1 = "Hello";
+String str2 = "hello";
+boolean result = str1.equalsIgnoreCase(str2); // result will be true
+---------------------------------------------------------------------------------------------------
+toUpperCase():Returns a new string with all characters converted to uppercase.
+
+String str = "Hello, World!";
+String upperCaseStr = str.toUpperCase(); // upperCaseStr will be "HELLO, WORLD!"
+---------------------------------------------------------------------------------------------------
+toLowerCase():Returns a new string with all characters converted to lowercase.
+ 
+String str = "Hello, World!";
+String lowerCaseStr = str.toLowerCase(); // lowerCaseStr will be "hello, world!"
+---------------------------------------------------------------------------------------------------
+trim():Returns a new string with leading and trailing whitespace removed.
+
+String str = "   Hello, World!   ";
+String trimmedStr = str.trim(); // trimmedStr will be "Hello, World!"
+---------------------------------------------------------------------------------------------------
+compareTo(otherString): Compares two strings lexicographically and returns an integer value. It's positive if the first string is greater, negative if the second string is greater, and 0 if they are equal.
+ 
+String str1 = "apple";
+String str2 = "banana";
+int result = str1.compareTo(str2); // result will be a negative value
+---------------------------------------------------------------------------------------------------
+substring(beginIndex, endIndex):Returns a portion of the string, starting from beginIndex (inclusive) to endIndex (exclusive).
+
+String str = "Hello, World!";
+String subStr = str.substring(7, 12); // subStr will be "World"
+---------------------------------------------------------------------------------------------------
+split(delimiter): Splits the string into an array of substrings using the specified delimiter.
+
+String str = "apple,banana,orange";
+String[] splitStr = str.split(","); // splitStr will be ["apple", "banana", "orange"]
+---------------------------------------------------------------------------------------------------
+indexOf(char/substring):Returns the index of the first occurrence of a character or substring in the string.
+ 
+String str = "Hello, World!";
+int index = str.indexOf("o"); // index will be 4
+---------------------------------------------------------------------------------------------------
+lastIndexOf(char/substring):Returns the index of the last occurrence of a character or substring in the string.
+ 
+String str = "Hello, World!";
+int lastIndex = str.lastIndexOf("o"); // lastIndex will be 8
+---------------------------------------------------------------------------------------------------
+valueOf(data):Converts various data types (int, double, etc.) to a string representation.
+ 
+int num = 42;
+String strNum = String.valueOf(num); // strNum will be "42"
+---------------------------------------------------------------------------------------------------
+concat(otherString):Concatenates another string to the end of the current string.
+ 
+String str1 = "Hello, ";
+String str2 = "World!";
+String concatenatedStr = str1.concat(str2); // concatenatedStr will be "Hello, World!"
+These examples demonstrate how to use these string methods in the Java programming language
