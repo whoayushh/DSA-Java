@@ -1,0 +1,95 @@
+1.Declaration and Initialization:
+
+You can declare and initialize an array using the following syntax:
+// Declaration
+dataType[] arrayName;
+
+// Initialization
+arrayName = new dataType[size];
+
+Example:
+
+int[] numbers;               // Declaration
+numbers = new int[5];        // Initialization
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+2.Assigning Values:
+
+You can assign values to array elements using the index (starting from 0).
+Example:
+
+numbers[0] = 10;
+numbers[1] = 20;
+numbers[2] = 30;
+numbers[3] = 40;
+numbers[4] = 50;
+------------------------------------------------------------------------------------------------------------------------------------
+
+3.Array Length:
+
+You can find the length of an array using the length property.
+
+Example:
+int length = numbers.length;
+System.out.println("Length of the array: " + length);
+--------------------------------------------------------------------------------------------------------------------------------------
+
+4.Iterating Through an Array:
+
+You can use loops to iterate through the elements of an array.
+
+Example:
+
+for (int i = 0; i < numbers.length; i++) {
+    System.out.println(numbers[i]);
+}
+----------------------------------------------------------------------------------------------------------------------------------------
+
+5.Enhanced for Loop (for-each):
+
+A more concise way to iterate through an array.
+
+Example:
+for (int num : numbers) {
+    System.out.println(num);
+}
+----------------------------------------------------------------------------------------------------------------------------------------
+
+6. Arrays.copyOf:
+
+Creates a copy of an array with a specified length.
+
+Example:
+int[] newArray = Arrays.copyOf(numbers, 3);
+----------------------------------------------------------------------------------------------------------------------------------------
+
+7.Arrays.equals:
+
+Compares two arrays for equality.
+
+Example:
+int[] anotherArray = {10, 20, 30};
+boolean isEqual = Arrays.equals(numbers, anotherArray);
+----------------------------------------------------------------------------------------------------------------------------------------
+8.Arrays.fill:
+
+Fills the elements of an array with a specific value.
+
+Example:
+Arrays.fill(numbers, 0); // Fills the array with 0
+----------------------------------------------------------------------------------------------------------------------------------------
+
+9.Arrays.sort:
+
+Sorts the elements of an array in ascending order.
+
+Example:
+Arrays.sort(numbers);
+----------------------------------------------------------------------------------------------------------------------------------------1.
+
+10.Binary Search:
+
+Searches for an element in a sorted array using binary search.
+Example:
+int index = Arrays.binarySearch(numbers, 30);
