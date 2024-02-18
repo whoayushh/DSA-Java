@@ -1,0 +1,9 @@
+-used to create dynamic Array
+-it contains duplicate elements
+-maintains insertion order
+- a non synchronised class
+-defining object
+ArrayList<Integer> arr = new ArrayList<>(); 
+
+-nested ArrayList object:
+ArrayList<ArrayList<Integer>> nestedArrList=new ArrayList<>();

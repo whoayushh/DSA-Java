@@ -1,0 +1,10 @@
+- stack class is child class of Vector
+-It contains duplicate elements.
+- It maintains insertion order/order list.
+-is a symbolised class
+-capacity = 10
+
+
+
+
+Stack<Integer> stk =new Stack<>();
