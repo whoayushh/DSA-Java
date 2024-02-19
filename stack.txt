@@ -4,7 +4,7 @@
 -is a symbolised class
 -capacity = 10
 
-
-
-
 Stack<Integer> stk =new Stack<>();
+
+TIME COMPLEXITY
+-push,pop,peek: O(1)

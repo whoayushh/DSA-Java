@@ -1,3 +1,23 @@
 
+-linear data structure
+-follows FIFO
+-operations:
+   enqueue
+   dequeue
+
+- In Java, you can implement queues using various classes and interfaces provided in the Java Collections Framework.
+- main interfaces are 'Queue' and its sun-interface 'Deque'.
+
+- using Queue interface
+Queue<String> que = new LinkedList<>();
+
+-using Deque interface:
+Deque<string> dq = new  ArrayDeque<>();  // or LinkedListDeque<>
+
+LinkedListDeque is a wrapper around LinkedList. 
 
 
+TIME COMPLEXITY:
+enqueue(e): O(1)
+dequeue():    O(N) (worst case, when queue is empty)
+peek/element:O(1)
