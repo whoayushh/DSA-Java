@@ -1,0 +1,7 @@
+- Similar to an Array.
+- elementsa are not stored in contigous memory location.
+- Each element contains 2 things:
+            data
+            next
+- head = null => ll is empty
+- if the next part of head is null -->LL has 1 element
