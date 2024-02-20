@@ -19,5 +19,5 @@ LinkedListDeque is a wrapper around LinkedList.
 
 TIME COMPLEXITY:
 enqueue(e): O(1)
-dequeue():    O(N) (worst case, when queue is empty)
+dequeue():  O(N) (worst case, when queue is empty)
 peek/element:O(1)
